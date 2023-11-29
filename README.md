@@ -5,7 +5,7 @@ A presentation on FAIR4RS principles and how they can be applied to existing pro
 This presentation is made in [Quarto](https://quarto.org), a free and open-source way to make presentations.
 
 ## License
-This repo is under a Creative Commons Attribution-Share-Alike 4.0 License. TL;DR: You can adapt / edit these slides and share them, provided you keep this license, and cite this original work in your adaptation 😃
+This repo is under a [Creative Commons Attribution-Share-Alike 4.0 License](https://creativecommons.org/licenses/by-sa/4.0/deed.en). TL;DR: You can adapt / edit these slides and share them, provided you keep this license, and cite this original work in your adaptation 😃
 
 
 
