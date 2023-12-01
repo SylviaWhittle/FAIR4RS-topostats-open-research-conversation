@@ -1,0 +1,14 @@
+---
+title: "Applying FAIR4RS to your projects"
+format:
+    revealjs:
+        theme: [serif, custom.scss]
+        slide-number: true
+        show-slide-number: speaker
+author: "<br>**Sylvia Whittle** (she/her)<br>[PhD Student, The University of Sheffield], based on Dr David Wilby's presentation (https://github.com/davidwilby/opensourcefair4rs)"
+date: ""
+footer: "slides: (add URL)"
+css: style.css
+---
+## Test
+---
