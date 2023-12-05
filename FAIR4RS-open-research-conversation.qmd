@@ -1,15 +1,16 @@
 ---
 title: "Applying FAIR4RS to your projects"
+author: "Sylvia Whittle"
 format:
     revealjs:
         theme: [serif]
         slide-number: true
         show-slide-number: speaker
-author: "**Sylvia Whittle**"
-date: ""
-footer: "slides: (add URL)"
+        embed-resources: true
 ---
 
 ## First slide
+
+First slide contents
 
 ---
