@@ -1,4 +1,5 @@
-project: 
+project: true
+site: 
   title: "index"
 format:
   html:
