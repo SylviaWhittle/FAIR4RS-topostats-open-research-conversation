@@ -1,6 +1,6 @@
-project: true
-site: 
-  title: "index"
+project:
+  site: 
+    title: "index"
 format:
   html:
     slides: true
