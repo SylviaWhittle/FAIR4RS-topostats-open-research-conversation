@@ -84,12 +84,20 @@ format:
 
 ## Updated GitHub repository 🛠️
 
+:::: {.columns}
+::: {.column width="50%"}
 - Added a welcoming README file
 - Ensured the licensing was clear
 - Added a code of conduct
 - Added a contributing guide
 
-![](./topostats-overview.png){width=120%}
+:::
+::: {.column width="50%"}
+
+![](./topostats-friendly-readme.png){width=120%}
+
+:::
+::::
 
 #### Effort: 1 day
 
