@@ -1,6 +1,6 @@
 ---
-title: "Applying FAIR4RS to your projects"
-author: "Sylvia Whittle (she/her) <br> PhD Student - Pyne Lab <br> The University of Sheffield"
+title: "Applying FAIR4RS to your projects 🚀"
+author: "**Sylvia Whittle** (she/her) <br> PhD Student - Pyne Lab <br> The University of Sheffield"
 footer: Slides made in Quarto, available at https://sylviawhittle.github.io/FAIR4RS-topostats-open-research-conversation/
 format:
     revealjs:
@@ -13,12 +13,19 @@ format:
 
 ## Our project in March 2022
 
+:::: {.columns}
+::: {.column width="50%"}
 - On GitHub
 - Two developers
 - Constant code conflicts
 - Difficult to install
 - Deprecated python 2.7
 - To change a variable, you had to open the code
+:::
+::: {.column width="50%"}
+![](./bad_readme.png)
+:::
+::::
 
 ---
 
@@ -49,9 +56,7 @@ format:
 
 ## Our project in March 2022: installation continued...
 
-:::: {.columns}
 
-::: {.column width="60%"}
 * Manually add the paths for these into Anaconda
 * Change the Gwyconda environment directory to the bin folder in Gwyddion
 * Open a new project and set the interpreter to Gwyconda 
@@ -60,11 +65,6 @@ format:
 * Ignore all runtime warnings 
 
 * **(Go back to the start because something went wrong in the installation)** 
-:::
-
-::: {.column width="40%"}
-![](./bad_readme.png)
-:::
 
 
 
@@ -75,11 +75,10 @@ format:
 :::{.incremental}
 - We asked for help 🙂
 - Contacted the Research Software Engineering team 🤝
-- Together with the help of the RSE team, we started incorporating FAIR4RS principles into our project 🚀
-
+- Together with the help of the RSE team, we started incorporating FAIR4RS principles into our project 🚀 <br> ![](./RSE.png){width=50%}
 :::
 
-![](./RSE.png)
+
 
 ---
 
@@ -90,7 +89,7 @@ format:
 - Added a code of conduct
 - Added a contributing guide
 
-![](./topostats-overview.png)
+![](./topostats-overview.png){width=120%}
 
 #### Effort: 1 day
 
@@ -102,6 +101,7 @@ format:
 - Clear licensing so people know that the code is free, open source, and can be used for research!
 - Code of conduct to help people feel safe and welcome
 - Contributing guide to help people get involved
+- Info on how to cite the code (so we can get credit for our work!)
 
 ---
 
@@ -136,12 +136,18 @@ format:
 
 ## Improving installation 🛠️
 
+
+:::: {.columns}
+::: {.column width="50%"}
 New installation procedure:
 ```{.bash}
 pip install topostats
 ```
-
-![](./pypi-release.png)
+:::
+::: {.column width="50%"}
+![](./pypi-release.png){width=100%}
+:::
+::::
 
 
 ---
@@ -160,7 +166,7 @@ pip install topostats
 :::: {.columns}
 ::: {.column width="50%"}
 - Removed all hard-coded parameters from the code
-- Created a configuration file in YAML format
+- Created a configuration file
 - Wrote code to load the configuration file
 - Wrote code to check that the configuration file is valid and makes sense
 :::
@@ -179,6 +185,8 @@ pip install topostats
 - Easy way to group parameters into one place
 - Users don't have to open the code
 - Configurations saved with the output files for reproducibility
+- Configurations can be saved and re-used
+- Configurations can be shared with collaborators
 
 
 ---
@@ -194,11 +202,7 @@ pip install topostats
 
 ---
 
-## Documentation: benefits
-
-
-
-
+## Documentation ✅
 
 :::: {.columns}
 ::: {.column width="50%"}
@@ -217,16 +221,21 @@ pip install topostats
 
 ## Code linting 🛠️
 
+:::: {.columns}
+::: {.column width="60%"}
 - Installed an automatic formatter (black for python)
 - Ran the formatter on the code, which automatically re-structures the code to match best practices
-
-#### Effort: 1 hour
+:::
+::: {.column width="40%"}
+![](./bad_formatting.png)
+:::
+::::
 
 - Installed a linter (flake8 for python)
 - Ran the linter on the code, which checks that the code is written in a way that adheres to best practices
 - Fix the many errors and warnings
 
-#### Effort: 1 month
+#### Effort: hour for formatting, 1 month for linting
 
 ---
 
@@ -241,12 +250,17 @@ pip install topostats
 
 ## Versioning 🛠️
 
+:::: {.columns}
+::: {.column width="50%"}
 - Set up versioning on GitHub
 - Set up automatic versioning on PyPI
 - Automatic documentation versioning & generation using Sphinx
 - Automatically publish new versions to ORDA
-
+:::
+::: {.column width="50%"}
 ![](./releases.png)
+:::
+::::
 
 #### Effort: 1 day for basic functionality
 
@@ -267,6 +281,8 @@ pip install topostats
 - Wrote tests for every function, class and file
 - Set up automatic testing on GitHub using GitHub Actions
 
+![](./tests.png)
+
 
 #### Effort: Months, ongoing
 
@@ -279,15 +295,18 @@ pip install topostats
 - More than makes up for it when writing new features
 - Confidence in the code that it does what it is was written to do! (and continues to do so!) (and nothing else!!) (on all types of computers!!!)
 
+![](./test-coverage.png)
+
+
 ---
 
 ## Our project in 2023
 
-- 70% test coverage
-- 95% ish documentation coverage
-- 250 ish downloads per month on PyPI
-- Collaborators from around the world
-- 8+ projects in our research group relying on our code
+- 70% test coverage 🛠️
+- 95% ish documentation coverage 📄
+- 250 ish downloads per month on PyPI 💻
+- Collaborators from around the world 🌎
+- 8+ projects in our research group relying on our code 🔬
 
 ---
 
