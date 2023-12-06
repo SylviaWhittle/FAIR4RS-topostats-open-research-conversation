@@ -1,6 +1,9 @@
 # FAIR4RS-topostats-open-research-conversation
 A presentation on FAIR4RS principles and how they can be applied to existing projects to increase impact and usability.
 
+## Viewing the slides
+The slides are viewable at https://sylviawhittle.github.io/FAIR4RS-topostats-open-research-conversation/#/title-slide.
+
 ## How this was made
 This presentation is made in [Quarto](https://quarto.org), a free and open-source way to make presentations.
 
