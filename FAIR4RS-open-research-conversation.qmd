@@ -29,7 +29,7 @@ format:
 * Install python 2.7
 * Install pycharm (register for an account if necessary)
 * Install Gwyddion (From an unfamiliar website)
-* Download a set of additional files from Google drive, hosted by our lab
+* Download a set of additional files from Google drive, 
 
 ---
 
@@ -42,13 +42,14 @@ format:
     - Install PyGTK
     - Install PyCairo
     - Install PyGObject
-    - Manually add the paths for these into Anaconda
-* Change the Gwyconda environment directory to the bin folder in Gwyddion
+
 
 ---
 
 ## Our project in March 2022: installation continued...
 
+* Manually add the paths for these into Anaconda
+* Change the Gwyconda environment directory to the bin folder in Gwyddion
 * Open a new project and set the interpreter to Gwyconda 
 * Create a python file
 * Append the path of the bin folder in Gwyddion
@@ -60,6 +61,12 @@ format:
 
 ## So what did we do?
 
+:::{.incremental}
+- We asked for help 🙂
+- Contacted the Research Software Engineering team
+- Together with the help of the RSE team, we started incorporating FAIR4RS principles into our project
+:::
+
 ---
 
 ## Updated GitHub repository: process
@@ -69,7 +76,7 @@ format:
 - Added a code of conduct
 - Added a contributing guide
 
-![topostats_github](./topostats-overview.png)
+![](./topostats-overview.png)
 
 #### Effort: 1 day
 
@@ -110,6 +117,12 @@ format:
 - Turned the project into a python 3.X package
 - Published the code to PyPI so it can be installed by anyone
 
+#### Effort: 1 day once the code was ready
+
+---
+
+## Improving installation
+
 New installation procedure:
 ```{.bash}
 pip install topostats
@@ -117,8 +130,6 @@ pip install topostats
 
 ![](./pypi-release.png)
 
-
-#### Effort: 1 day once the code was ready
 
 ---
 
@@ -133,12 +144,18 @@ pip install topostats
 
 ## Configuration file: process
 
+:::: {.columns}
+::: {.column width="50%"}
 - Removed all hard-coded parameters from the code
 - Created a configuration file in YAML format
 - Wrote code to load the configuration file
 - Wrote code to check that the configuration file is valid and makes sense
-
+:::
+::: {.column width="50%"}
 ![](./config.png)
+:::
+::::
+
 
 #### Effort: 1 week for basic functionality
 
@@ -166,12 +183,22 @@ pip install topostats
 
 ## Documentation: benefits
 
+
+
+
+
+:::: {.columns}
+::: {.column width="50%"}
 - Each function, class and file is explained for developers and users
 - Documentation available online as a website
 - Automatically generated & updated (no effort once set up!)
 - Eliminates the time I spend wondering what a function I wrote 6 months ago does!
-
+:::
+::: {.column width="50%"}
 ![](./documentation_website.png)
+:::
+::::
+
 
 ---
 
@@ -186,7 +213,7 @@ pip install topostats
 - Ran the linter on the code, which checks that the code is written in a way that adheres to best practices
 - Fix the many errors and warnings
 
-### Effort: 1 month
+#### Effort: 1 month
 
 ---
 
@@ -242,10 +269,10 @@ pip install topostats
 
 ## Our project in 2023
 
-- 250 ish downloads per month on PyPI
-- Collaborators around the world
 - 70% test coverage
 - 95% ish documentation coverage
+- 250 ish downloads per month on PyPI
+- Collaborators around the world
 
 ---
 
