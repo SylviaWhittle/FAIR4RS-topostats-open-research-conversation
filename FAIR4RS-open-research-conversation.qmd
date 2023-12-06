@@ -113,8 +113,7 @@ format:
 
 ## Improving installation: process
 
-- Removed the need to install dependencies separately by writing our own code to replace them
-- Turned the project into a python 3.X package
+- Removed the need to install dependencies separately by writing our own code to replace them, or using python 3 libraries
 - Published the code to PyPI so it can be installed by anyone
 
 #### Effort: 1 day once the code was ready
@@ -264,6 +263,7 @@ pip install topostats
 - Difficult to begin with
 - Adds time to development
 - More than makes up for it when writing new features
+- Confidence in the code that it does what it is was written to do! (and continues to do so!) (and nothing else!!) (on all types of computers!!!)
 
 ---
 
@@ -272,15 +272,18 @@ pip install topostats
 - 70% test coverage
 - 95% ish documentation coverage
 - 250 ish downloads per month on PyPI
-- Collaborators around the world
+- Collaborators from around the world
+- 8+ projects in our research group relying on our code
 
 ---
 
 ## Reassurances
 
+- We did all this incrementally over a long time, with the help of the RSE team
+
 - You don't have to do it all at once
 - You don't have to do it all yourself
 - You don't have to do it perfectly
-- Every little helps
+- Small changes make a big difference!
 
 ---
