@@ -26,11 +26,21 @@ format:
 
 ---
 
+## Updated GitHub repository: process
+
+- Added a welcoming README file
+- Ensured the licensing was clear
+- Added a code of conduct
+- Added a contributing guide
+
+![topostats_github](./topostats-overview.png)
+
+---
+
 ## Updating to python 3.X: process
 
-- Started from scratch
-- Had to ditch some dependencies
-- Updated others
+- Started from scratch in Python 3.X
+- Ditched some dependencies, updated others
 - Wrote our own code to replace some of the dependencies that were no longer compatible
 
 #### Effort: 4 months
@@ -41,7 +51,8 @@ format:
 
 - Code was more stable
 - More people could use it
-- Online help was more available
+- Up-to-date python features and libraries
+- Online tutorials & examples were relevant
 
 ---
 
@@ -55,16 +66,19 @@ format:
 pip install topostats
 ```
 
+![pypi](./pypi-release.png)
+
+
 #### Effort: 1 day once the code was ready
 
 ---
 
 ## Improving installation: benefits
 
-- Friendlier installation -> more users
-- Onboarding is faster
+- Friendlier installation means more users
+- Onboarding is so much faster
 - Now works on all computers!
-- Time is saved with every new user, and member of our research team
+- Time is saved with every new user, and new member of our research team
 
 ---
 
@@ -74,6 +88,8 @@ pip install topostats
 - Created a configuration file in YAML format
 - Wrote code to load the configuration file
 - Wrote code to check that the configuration file is valid and makes sense
+
+![config_file](./config.png)
 
 #### Effort: 1 week for basic functionality
 
@@ -179,7 +195,7 @@ pip install topostats
 
 ---
 
-# Reassurances
+## Reassurances
 
 - You don't have to do it all at once
 - You don't have to do it all yourself
