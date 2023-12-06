@@ -323,15 +323,17 @@ pip install topostats
 - Collaborators from around the world 🌎
 - 8+ projects in our research group relying on our code 🔬
 
+![](./topostats-overview.png)
+
 ---
 
 ## Reassurances
 
 - We did all this incrementally over a long time, with the help of the RSE team
 
-- You don't have to do it all at once
-- You don't have to do it all yourself
-- You don't have to do it perfectly
+- You **don't** have to do it **all at once**
+- You **don't** have to do it **all yourself**
+- You **don't** have to do it **perfectly**
 - Small changes make a big difference!
 
 ---
