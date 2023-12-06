@@ -219,7 +219,7 @@ pip install topostats
 
 ---
 
-## Code linting 🛠️
+## Code linting (formatting) 🛠️
 
 :::: {.columns}
 ::: {.column width="60%"}
@@ -231,11 +231,17 @@ pip install topostats
 :::
 ::::
 
+#### Effort: 1 hour
+
+---
+
+## Code linting (linting) 🛠️
+
 - Installed a linter (flake8 for python)
 - Ran the linter on the code, which checks that the code is written in a way that adheres to best practices
 - Fix the many errors and warnings
 
-#### Effort: hour for formatting, 1 month for linting
+#### Effort: 1 month
 
 ---
 
@@ -268,11 +274,20 @@ pip install topostats
 
 ## Versioning ✅
 
+:::: {.columns}
+::: {.column width="50%"}
 - Development versions are on GitHub
 - Stable versions are released to PyPI
 - Documentation is versioned too!
 - Every version of the project is archived, usable and citable
 
+:::
+::: {.column width="50%"}
+
+![](./release-history.png)
+
+:::
+::::
 
 ---
 
@@ -293,7 +308,7 @@ pip install topostats
 - Difficult to begin with
 - Adds time to development
 - More than makes up for it when writing new features
-- Confidence in the code that it does what it is was written to do! (and continues to do so!) (and nothing else!!) (on all types of computers!!!)
+- Confidence in the code that it does what it is was written to do (and continues to do so!) (and nothing else!!) (on all types of computers!!!)
 
 ![](./test-coverage.png)
 
