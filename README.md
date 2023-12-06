@@ -1,26 +1,3 @@
-# Our super awesome research project
-
-## Documentation
-We can organise a Google Meet to explain the code, but I am busy until Friday
-
-## Version
-Uh it was updated last Wednesday I think?
-
-## Collaboration
-Our changes will break each other's code, so please don't edit lines 190-200 in `main.py` also don't touch the filtering scripts!
-
-## Testing
-It was working last time I used it...
-
-## Installation
-We're not quite sure ourselves, good luck!
-
-
-
-
-
-
-
 # FAIR4RS-topostats-open-research-conversation
 A presentation on FAIR4RS principles and how they can be applied to existing projects to increase impact and usability.
 

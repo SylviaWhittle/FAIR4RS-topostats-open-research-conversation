@@ -1,6 +1,7 @@
 ---
 title: "Applying FAIR4RS to your projects"
-author: "Sylvia Whittle (she/her)"
+author: "Sylvia Whittle (she/her) <br> PhD Student - Pyne Lab <br> The University of Sheffield"
+footer: Slides made in Quarto, available at https://sylviawhittle.github.io/FAIR4RS-topostats-open-research-conversation/
 format:
     revealjs:
         theme: [serif]
@@ -14,8 +15,8 @@ format:
 
 - On GitHub
 - Two developers
-- Changes made by one would break the other's code
-- Difficult to install (sometimes impossible!)
+- Constant code conflicts
+- Difficult to install
 - Deprecated python 2.7
 - To change a variable, you had to open the code
 
@@ -48,6 +49,9 @@ format:
 
 ## Our project in March 2022: installation continued...
 
+:::: {.columns}
+
+::: {.column width="60%"}
 * Manually add the paths for these into Anaconda
 * Change the Gwyconda environment directory to the bin folder in Gwyddion
 * Open a new project and set the interpreter to Gwyconda 
@@ -56,6 +60,13 @@ format:
 * Ignore all runtime warnings 
 
 * **(Go back to the start because something went wrong in the installation)** 
+:::
+
+::: {.column width="40%"}
+![](./bad_readme.png)
+:::
+
+
 
 ---
 
@@ -63,13 +74,16 @@ format:
 
 :::{.incremental}
 - We asked for help 🙂
-- Contacted the Research Software Engineering team
-- Together with the help of the RSE team, we started incorporating FAIR4RS principles into our project
+- Contacted the Research Software Engineering team 🤝
+- Together with the help of the RSE team, we started incorporating FAIR4RS principles into our project 🚀
+
 :::
+
+![](./RSE.png)
 
 ---
 
-## Updated GitHub repository: process
+## Updated GitHub repository 🛠️
 
 - Added a welcoming README file
 - Ensured the licensing was clear
@@ -82,7 +96,7 @@ format:
 
 ---
 
-## Updated GitHub repository: benefits
+## Updated GitHub repository ✅
 
 - Friendly landing page for new users
 - Clear licensing so people know that the code is free, open source, and can be used for research!
@@ -91,7 +105,7 @@ format:
 
 ---
 
-## Updating to python 3: process
+## Updating to python 3 🛠️
 
 - Python 2.7 was deprecated in January 2020 🪦
 - Started from scratch in Python 3
@@ -102,7 +116,7 @@ format:
 
 ---
 
-## Updating to python 3: benefits
+## Updating to python 3 ✅
 
 - Code was more stable
 - More people could use it
@@ -111,7 +125,7 @@ format:
 
 ---
 
-## Improving installation: process
+## Improving installation 🛠️
 
 - Removed the need to install dependencies separately by writing our own code to replace them, or using python 3 libraries
 - Published the code to PyPI so it can be installed by anyone
@@ -120,7 +134,7 @@ format:
 
 ---
 
-## Improving installation
+## Improving installation 🛠️
 
 New installation procedure:
 ```{.bash}
@@ -132,7 +146,7 @@ pip install topostats
 
 ---
 
-## Improving installation: benefits
+## Improving installation ✅
 
 - Friendlier installation means more users
 - Onboarding is so much faster
@@ -141,7 +155,7 @@ pip install topostats
 
 ---
 
-## Configuration file: process
+## Configuration file 🛠️
 
 :::: {.columns}
 ::: {.column width="50%"}
@@ -160,7 +174,7 @@ pip install topostats
 
 ---
 
-## Configuration file: benefits
+## Configuration file ✅
 
 - Easy way to group parameters into one place
 - Users don't have to open the code
@@ -169,7 +183,7 @@ pip install topostats
 
 ---
 
-## Documentation: process
+## Documentation 🛠️
 
 - Wrote a README file to explain the project
 - Wrote documentation in the form of docstrings for every function, class and file
@@ -201,7 +215,7 @@ pip install topostats
 
 ---
 
-## Code linting: process
+## Code linting 🛠️
 
 - Installed an automatic formatter (black for python)
 - Ran the formatter on the code, which automatically re-structures the code to match best practices
@@ -216,7 +230,7 @@ pip install topostats
 
 ---
 
-## Code linting: benefits
+## Code linting ✅
 
 - Everyone speaks the same coding "dialect"
 - Code is easier to read and understand
@@ -225,7 +239,7 @@ pip install topostats
 
 ---
 
-## Versioning: process
+## Versioning 🛠️
 
 - Set up versioning on GitHub
 - Set up automatic versioning on PyPI
@@ -238,7 +252,7 @@ pip install topostats
 
 ---
 
-## Versioning: benefits
+## Versioning ✅
 
 - Development versions are on GitHub
 - Stable versions are released to PyPI
@@ -248,7 +262,7 @@ pip install topostats
 
 ---
 
-## Testing: process
+## Testing 🛠️
 
 - Wrote tests for every function, class and file
 - Set up automatic testing on GitHub using GitHub Actions
@@ -258,7 +272,7 @@ pip install topostats
 
 ---
 
-## Testing: benefits
+## Testing ✅
 
 - Difficult to begin with
 - Adds time to development
