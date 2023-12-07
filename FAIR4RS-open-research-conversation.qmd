@@ -106,7 +106,7 @@ format:
 ## Updated GitHub repository ✅
 
 - Friendly landing page for new users
-- Clear licensing so people know that the code is free, open source, and can be used for research!
+- Clear licensing so people know that the code is free, and can be used for research (but also needs citing!)
 - Code of conduct to help people feel safe and welcome
 - Contributing guide to help people get involved
 - Info on how to cite the code (so we can get credit for our work!)
